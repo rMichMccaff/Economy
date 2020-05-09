@@ -1,0 +1,22 @@
+
+ABSTRACT
+Suppose we wanted to create some kind of simulation or environment where we simulated some of the the main aspects of consumer theory.  What does this mean?  Well, suppose we made a consumer object, but contrary to the typical scenario where we had a consumer with unknown preferences and trying to recover preferences from demand behavior, as in the the case of revealed preference, but for this case we have indifference curves, preferences, and all those other things, but we make them and assign them to player characters.  It really is the opposite of the problem we encounter in the real world where we have our consumer with unknown preferences we can create all kinds of indifference curve functions for various bundles.  
+
+Imagine all of our standard indifference curves associated with goods, bads, and neutrals and their relations to one another.  Next, we would then have a market place which would be a collection of goods, a consumer, a consumer would have a set dispositions between our goods.  Suppose a consumer likes tofu, but hates beef, or likes both, or has some sort of complement preference for them.
+
+We could then generate a set of consumer relations, like they like juice, but hate water.  We would then have an abstract class of functions which would be paired with these relations.  We could also have a budget function, etc.  
+
+It would be nice to build this program so that we could introduce different markets, producer theory, and build eventually to supply and demand situations.  
+
+
+THE MAP  
+The our three main classes in general should be a market, a producer, and a consumer.  A market would have a producer and a consumer.  For now, I can only really talk about the consumer, what then would be the consumer?  
+
+CONSUMER
+What does a consumer have?  They have a budget constraint, a set of indifference curves, a utility function, and a demand function.  The goods will be comparable in terms of utility.
+
+For now, the temporary goal will be to give the consumer two goods, their indifference curves, and their budget constraints.      
+	
+PRODUCER
+
+MARKET

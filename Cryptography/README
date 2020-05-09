@@ -1,0 +1,11 @@
+CRYPTOGRAPHY 
+
+The purpose of this group of programs will center around cryptography.  The first will be a set of programs to encrypt using a simple cipher for text documents.  
+
+First, a cipher is really just a cycle of permutations of the alphabet.  For our package wide objects we'll need a function which will be the cipher.  The program will first read a text document and then encrypt it and write out an encrypted version of it.  The next task will be to then decrypt the document and write out a decrypted version of the document.  We'll start with just basic texts and then expand them gradually to include all types of values including symbols, capitals, ect....
+
+First I need to find a maximum shuffle for the alphabet.  This would include, I guess, 
+  
+
+ENCRYPT FUNCTION CLASS 
+Naively, the function should generate unique random numbers over a set  which will effectively map them to the various unicode characters or the system of alphabet.  	 

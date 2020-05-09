@@ -1,0 +1,117 @@
+The following package is devoted to creating a statistics package capable of carrying out most basic statistics calculations.  But what are the goals? The first is going to be that given a sample we are going to want to pull the major statistical information for a sample.  Sample Mean, Size, and Standard Deviation are the three major pieces of information.  Two of the three will be calculated using the static methods classes.  
+
+
+*************************** OBJECTS ****************************** 
+
+*** Observation ***
+
+	GLOBAL VARIABLES 
+	long observation 
+	int number
+
+	CONSTRUCTORS 
+	Observation(long observation, int observation)
+	Observation(Observation)
+
+	METHODS
+	getObservationVar()-------------------->long
+	setObservationVar(long observation)---->void
+	getObservation()----------------------->Observation
+	setObservation(Observation)------------>void
+	getNumber()---------------------------->int
+	setNumber(int number)------------------>void
+	compareObservation(Observation)-------->boolean
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*** Sample ***
+	
+	GLOBAL VARIABLES
+	ArrayList<Observation> sampleList
+	int size
+	long mean
+	long standardDeviation
+	
+
+	CONSTRUCTORS 
+	Sample(ArrayList<Observation>)
+	Sample(Sample)
+
+	
+	METHODS 
+	getSampleList()-------------------->ArrayList<Observation>
+	setSampleList(ArrayList<Observation>)---->void
+	getSampleSize()-------------------------->int 
+	getSampleMean()-------------------------->long
+	getStandardDeviation()------------------->long
+	
+	
+
+*** Experiment ***
+
+	GLOBAL VARIABLES 
+	ArrayList<Sample> samples 
+	int sample1Size
+	int sample2Size
+	long tValue
+	long zScore
+	long pValue
+
+
+	CONSTRUCTORS 
+
+	METHODS
+
+
+
+
+
+
+
+
+
+
+
+
+
+************************* STATIC METHODS *************************
+*** ObservationCalculations ***
+	
+
+*** SampleCalculations ***
+
+
+	METHODS
+	mean()------------------------->
+	standardDeviation()------------>
+	variance()--------------------->
+	q
+
+*** ExperimentCalculations ***
+	
+
+	METHODS	
+
+
+*** Anova ***
+
+
+	METHODS 
+

@@ -1,0 +1,13 @@
+FIRST ITERATION:  Display text in a window which reports the sample mean, size, and standard deviation.  The main task will be integrating the statistics package to work with display.  
+
+SECOND ITERATION:  Display a chart of the sample, laying out a graph to visualize the data in a 2D graph.  
+
+THIRD ITERATION:  Display two samples on the same screen reporting the mean, standard deviation, and sample size.  A graph will be included for each.  
+
+FOURTH ITERATION: Display both samples in a nested window to allow the user to choose between solid visualization of each sample separatly.
+
+
+FIFTH ITERATION: Begin smoothing out the import and building processes for reading sample data.  Start with two formatted text documents.  And read in from them.  Introduce menus which allow the user to choose between what to display from the relevant samples.  
+
+SIXTH ITERATION:  Implement an experiment section.  Display a normal chart to pass normality assumptions and histograms which 
+   
